@@ -23,9 +23,20 @@
     img{
       width: 220px;
       height: 220px;
+      border-radius: 50%
     }
     p {
       font-style: italic;
+    }
+    li a {
+      display: block;
+      color: white;
+      texg-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover{
+      background-color: #111;
     }
     html{
       box-sizing: border-box;
@@ -39,27 +50,43 @@
       background-color: yellow;
     }
     .navigation ul li{
-      list-style: none;
       display: inline;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      float: left;
     }
     .container{
       max-width: 960px;
       margin: 0 auto;
     }
+    .footer {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    
+      float: left;
+    }
+
+    {
+      border: 1px solid black;
+    }
   </style>
 </head>
 
 <body>
-  <div>container</div>
-  * {
-    border: 1px solid black;
-  }
-  <div class="navagation" id=blog-navagation>
+  <div class="container">
+
+  <div class="navagation ul li" id=blog-navagation>
     <ul>
-    <!--This links to our Home and Projects pages.-->
+    <!--This links to our Home, Projects, blog pages.-->
     <li><a href="../">Home</a></li>
     <li><a href="../projects">Projects</a></li>
     <li><a href="../media">Media</a></li>
+    </ul>
   </div>
   <div class="header" id="blog-header">
     <h1>Semple Little Things</h1>
@@ -69,7 +96,7 @@
   </div>
   <div class="content-area" id="blog">
     <h1></h1>
-    <p>An engineer by profession and project manager by passion it took a step of faith to move into a techy world. </p>
+    <p>An engineer by profession and project manager by passion it took a <span class="highlighted">step of faith,</span> to move into a techy world. </p>
   </div>
   <div class="footer" id="blog-footer">
     <p>You can contact me via:</p>
@@ -78,7 +105,7 @@
       <li><a href="tel:(555)555-5555">Phone</a></li>
     </ul>
   </div>
-
-</body>
 </div>
+</body>
+
 </html>
