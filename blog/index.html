@@ -26,12 +26,12 @@
       border-radius: 50%
     }
     p {
-      font-style: italic;
+      font-style: normal;
     }
     li a {
-      display: block;
+      display: inline;
       color: white;
-      texg-align: center;
+      text-align: center;
       padding: 14px 16px;
       text-decoration: none;
     }
@@ -49,25 +49,23 @@
     .highlighted{
       background-color: yellow;
     }
-    .navigation ul li{
-      display: inline;
-      list-style-type: none;
+    .navigation li{
+      display: inline-block;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: #333;
-      float: left;
+      float: center;
     }
     .container{
       max-width: 960px;
       margin: 0 auto;
     }
-    .footer {
+    .footer li{
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
-    
       float: left;
     }
 
@@ -79,8 +77,8 @@
 
 <body>
   <div class="container">
-
-  <div class="navagation ul li" id=blog-navagation>
+ <!-- nav -->
+  <div class="navigation li" id="blog-nav">
     <ul>
     <!--This links to our Home, Projects, blog pages.-->
     <li><a href="../">Home</a></li>
@@ -88,22 +86,25 @@
     <li><a href="../media">Media</a></li>
     </ul>
   </div>
+  <!-- header -->
   <div class="header" id="blog-header">
     <h1>Semple Little Things</h1>
-    <h2>by Denise Langford</h2>
+    <h2>Blog</h2>
     <img src="../img/seth-macey-417541-unsplash.jpg" alt="profile">
-    <p></p>
   </div>
+  <!-- content -->
   <div class="content-area" id="blog">
-    <h1></h1>
-    <p>An engineer by profession and project manager by passion it took a <span class="highlighted">step of faith,</span> to move into a techy world. </p>
+    <h1>Step of Faith</h1>
+    <p>An engineer by profession and project manager by passion it took a <span class="highlighted">step of faith,</span> to move into a techie world. </p>
   </div>
-  <div class="footer" id="blog-footer">
-    <p>You can contact me via:</p>
+  <!-- footer -->
+  <div class="footer li" id="blog-footer">
+    <p>Contact me via:</p>
     <ul>
       <li><a href="mailto:email@example.com">email</a></li>
       <li><a href="tel:(555)555-5555">Phone</a></li>
     </ul>
+    <p>&copy 2018 MD Langford</p>
   </div>
 </div>
 </body>
