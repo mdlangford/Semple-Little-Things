@@ -13,7 +13,7 @@ h2 {
     font-style: italic;
 }
 h3 {
-
+  margin-top: 80px;
 }
 img{
   width: 220px;
@@ -58,6 +58,7 @@ html{
   background-color: yellow;
 }
 .navigation {
+  position: fixed;
   width:100%;
   height:60px;
   background-color: #333;
@@ -71,6 +72,9 @@ html{
   overflow: hidden;
   background-color: #333;
   float: left;
+}
+.user-contact information{
+  margin-top: 60px;
 }
 .container{
   max-width: 960px;
