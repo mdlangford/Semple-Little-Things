@@ -14,10 +14,16 @@
   </div>
 
   <div class="navigation" id="contact form-nav">
-    <ul>
+    <ul class="container">
       <!--This links to our Home, Projects, blog pages.-->
       <li><a href="../">Home</a></li>
-      <li><a href="../projects">Projects</a></li>
+      <li><a href="../projects">Projects</a>
+          <ul class="dropdown">
+            <li><a href="#">First Project</a></li>
+            <li><a href="#">Second Project</a></li>
+            <li><a href="#">Third Project</a></li>
+          </ul>
+      </li>
       <li><a href="../media">Media</a></li>
     </ul>
   </div>
@@ -47,7 +53,7 @@
 <div class="contact reason">
   <label>This message is regarding:
     <input type="radio" name="subject" value="professional" checked><span>Consulting</span>
-    <input type="radio" name="subject" value="speaker" checked><span>Professional Speaker </span>
+    <input type="radio" name="subject" value="speaker" checked><span>Public Speaker </span>
     <input type="radio" name="subject" value="other" checked><span>Something else</span>
   </label>
 </div>
