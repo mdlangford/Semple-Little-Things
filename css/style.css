@@ -22,7 +22,7 @@ h3 {
 img{
   width: 220px;
   height: 220px;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 p {
   font-style: normal;
@@ -63,6 +63,7 @@ html{
   box-sizing: border-box;
 }
 .header {
+  margin-top: 15%;
   padding-bottom: 20px;
   text-align: center;
   font-family: sans-serif;
@@ -148,7 +149,8 @@ html{
   margin: 0 auto;
 }
 #greeting{
-	background-color: black;
+  margin-top: 500px
+  background-color: black;
 }
 #blog-footer{
 	background-color: gray;

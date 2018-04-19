@@ -6,61 +6,51 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MD Langford | Web Developer</title>
 
-  <style>
-    body {
-      background-color: DarkSeaGreen;
-    }
-    h1 {
-        font-family: Helvetica;
-    }
-    h2 {
-        font-style: italic;
-    }
-    img{
-      width: 220px;
-      height: 220px;
-    }
-    p {
-      font-style: italic;
-    }
-    .header {
-      padding-bottom: 20px;
-    }
-    #primary {
-      text-align: center;
-      font-family: sans-serif;
-    }
+  <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 
-  </style>
 </head>
 <body>
-<ul>
-  <!--This links to our Media and Project pages.-->
-  <li><a href="media">Media</a></li>
-  <li><a href="projects">Projects</a></li>
-  <li><a href="blog/">Blog</a></li>
-  <li><a href="Contact">Contact Us</a></li>
-</ul>
+    <div class="container">
 
-<h1>Denise Langford</h1>
+<h1>Denise Langford</h1> --> -->
 
-<img src="img/profile.jpg" alt="profile">
-<hr>
-<div id="primary"class="header">
-  <h2>Hello, World!</h2>
-    <p>Stepping out on faith and building a dream.  Lets grow together.</p>
+<div class="navigation" id="Home">
+
+    <h1>M. Denise Langford</h1>
+    <ul class="container">
+    <!-- This links to our Home, Projects, blog pages.-->
+    <li><a href="../">Home</a></li>
+    <li><a href="../projects">Projects</a>
+        <ul class="dropdown">
+          <li><a href="../projects">First Project</a></li>
+          <li><a href="#">Second Project</a></li>
+          <li><a href="#">Third Project</a></li>
+        </ul>
+    </li>
+    <li><a href="../media">Media</a></li>
+    <li><a href="../blog">Blog</a></li>
+    <li><a href="../contact">Contact Us</a></li>
+  </ul>
 </div>
+
+<div id="primary" class="header">
+  <img src="img/profile.jpg" alt="profile">
+  <h2>Hello, World!</h2>
+    <p>Stepping out on faith and building a dream.  Lets grow together...TWP3.0</p>
+</div>
+
 <hr>
-<div class="header">
 <h2>Just for Fun</h2>
     <ul>
       <li>Hiking</li>
       <li>Biking</li>
       <li>Sking</li>
     </ul>
+
+<div class="footer">
+  <p>&copy 2018 MD Langford</p>
 </div>
 
-
-
+</div>
 </body>
 </html>

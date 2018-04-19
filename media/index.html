@@ -5,41 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MD Langford | Media</title>
-  <style media="screen">
-  body {
-    background-color: DarkSeaGreen;
-  }
-  h1 {
-      font-family: Helvetica;
-  }
-  h2 {
-      font-style: italic;
-  }
 
-  </style>
+  <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+
 </head>
 <body>
- <div id='greeting'>
+  <div class="container">
 
- </div>
+ <div id='greeting'></div>
 
+  <div class="header">
   <h1>Media</h1>
-  <nav>
-    <ul>
-    <!--This links to our Home and Projects pages.-->
-    <li><a href="../">Home</a></li>
-    <li><a href="../projects">Projects</a></li>
-    <li><a href="../blog">Blog</a></li>
-    <li><a href="../contact">Contact Us</a></li>
-  </nav>
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.>
+  </div>
 
-</video>
+      <div class="navigation" id="media-nav">
+      <h1>M. Denise Langford</h1>
+      <ul class="container">
+    <!--This links to our Home and Projects pages.-->
+      <li><a href="../">Home</a></li>
+      <li><a href="../projects">Projects</a></li>
+        <ul class="dropdown">
+          <li><a href="../projects">First Project</a></li>
+          <li><a href="#">Second Project</a></li>
+          <li><a href="#">Third Project</a></li>
+        </ul>
+      <li><a href="../blog">Blog</a></li>
+      <li><a href="../contact">Contact Us</a></li>
+  </ul>
+  </div>
+
 
 <script type="text/javascript" src="../JS/greeters.js"></script>
 
+<div class="footer">
+  <p>&copy 2018 MD Langford</p>
+</div>
+
+</div>
 </body>
 </html>
